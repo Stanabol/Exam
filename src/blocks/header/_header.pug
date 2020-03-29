@@ -1,0 +1,15 @@
+mixin header
+    .header
+        .container
+            .row
+                .col-xl-2.col-lg-3.col-md-4.col-sm-6.offset-sm-0
+                    .header__logo
+                        img.header__img(src="./img/moverstrek.png", alt="")              
+                .col-xl-4.offset-xl-6.col-lg-6.offset-lg-3.col-md-8.offset-md-0.col-sm-12.offset-sm-3
+                    .header__telefon.d-flex.justify-content.align-items-center
+                        img.header__tel(src="./img/phone1.png", alt="")
+                        .header__column.column
+                            a.header__number(href="tel:800-298-0044") 800-298-0044
+                            p.header__text Office hours 7 AM - 7 PM   
+                        button.header__button(href="#") Get a quote
+            block                     
