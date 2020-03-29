@@ -4639,6 +4639,9 @@ html {
   margin-top: -15px;
   margin-left: 12px;
 }
+.header__tel:hover {
+  opacity: 0.5;
+}
 .header__number {
   font-family: "Poppins";
   font-style: normal;
@@ -4650,6 +4653,9 @@ html {
   text-decoration: none;
   margin-left: 17px;
   letter-spacing: 0.3px;
+}
+.header__number:hover {
+  opacity: 0.5;
 }
 .header__text {
   margin: 0;
@@ -4677,6 +4683,9 @@ html {
   color: #FFFFFF;
   width: 170px;
   height: 40px;
+}
+.header__button:hover {
+  opacity: 0.5;
 }
 
 .telefon {
@@ -4733,6 +4742,8 @@ html {
 
 .wrapper {
   background: url(../img/Rectangle3.png) no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 660px;
   margin-top: 10px;
 }
@@ -4883,6 +4894,9 @@ html {
   width: 77%;
   height: 50px;
 }
+.utp__submit:hover {
+  opacity: 0.5;
+}
 .utp__subtitleform {
   margin: 0;
   margin-top: 23px;
@@ -4905,6 +4919,9 @@ html {
   color: #9F9F9F;
   letter-spacing: 0.3px;
 }
+.utp__subtitle-tel:hover {
+  opacity: 0.5;
+}
 .utp__footer {
   margin: 0 auto;
   margin-top: 65px;
@@ -4919,13 +4936,22 @@ html {
   color: #5C524B;
   letter-spacing: 0.23px;
 }
-.utp__color::before {
-  content: "Data Protection";
-  color: #F8C654;
+.utp__footer-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #5C524B;
+  letter-spacing: 0.23px;
 }
-.utp__color::after {
-  content: "Privacy Policy";
+.utp__link {
   color: #F8C654;
+  text-decoration: none;
+}
+.utp__link:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

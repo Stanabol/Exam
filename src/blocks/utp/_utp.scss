@@ -1,5 +1,7 @@
 .wrapper {
     background: url(../img/Rectangle3.png)no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 660px;
     margin-top: 10px;
 }
@@ -167,6 +169,10 @@
         // padding-right: 135px;
         width: 77%;
         height: 50px;
+
+        &:hover {
+            opacity: 0.5;
+        }
     }
 
     &__subtitleform {
@@ -191,6 +197,10 @@
         text-align: center;
         color: #9F9F9F;
         letter-spacing: 0.3px;
+
+        &:hover {
+            opacity: 0.5;
+        }
     }
 
     &__footer {
@@ -206,19 +216,35 @@
         text-align: center;
         color: #5C524B;
         letter-spacing: 0.23px;
-        }
+    }
 
-    &__color {
+    &__footer-link {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #5C524B;
+        letter-spacing: 0.23px;
+    }
+    &__link {
+        color: #F8C654;
+        text-decoration: none;
 
-        &::before {
-            content: "Data Protection";
-            color: #F8C654;
+        &:hover {
+            text-decoration: underline;
         }
+    
+        // &::before {
+        //     content: "Data Protection";
+        //     color: #F8C654;
+        // }
 
-        &::after {
-            content: "Privacy Policy";
-            color: #F8C654;
-        }
+        // &::after {
+        //     content: "Privacy Policy";
+        //     color: #F8C654;
+        // }
     }
 
     
